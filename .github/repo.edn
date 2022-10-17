@@ -1,0 +1,6 @@
+{
+ :org        ""
+ :repository "ajchemist/web-steroid.reitit"
+
+ :github.token/pass-name "github.com/tokens/ajchemist"
+ }
