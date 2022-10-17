@@ -15,7 +15,7 @@
 
 
 (defn index-route?
-  [[path _data :as route]]
+  [[path _data :as _route]]
   (or (str/ends-with? path "/")
       (str/ends-with? path "/index.html")
       (str/ends-with? path "/index.htm")))

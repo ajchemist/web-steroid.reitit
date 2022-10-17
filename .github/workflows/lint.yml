@@ -11,10 +11,10 @@ on:
       - 'src/core/**/*.cljs'
       - 'src/core/**/*.cljc'
     branches:
-      - master
+      - main
   pull_request:
     branches:
-      - master
+      - main
 
 
 env:
