@@ -4,7 +4,7 @@
   <packaging>jar</packaging>
   <groupId>io.github.ajchemist</groupId>
   <artifactId>web-steroid.reitit</artifactId>
-  <version>2022.298.34513</version>
+  <version>2022.298.54662</version>
   <name>web-steroid.reitit</name>
   <dependencies>
     <dependency>
@@ -15,7 +15,7 @@
     <dependency>
       <groupId>io.github.ajchemist</groupId>
       <artifactId>web-steroid</artifactId>
-      <version>2022.298.34370</version>
+      <version>2022.298.50094</version>
     </dependency>
     <dependency>
       <groupId>metosin</groupId>
