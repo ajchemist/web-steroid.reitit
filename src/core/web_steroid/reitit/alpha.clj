@@ -34,10 +34,11 @@
                             (-> request (reitit.ring/get-match) :data))))}
         :as   wrap-opts} ::wrap-html-metadata
        :as               _data} _opts]
-     (fn [handler]
-       (web-steroid/wrap-html-metadata
-         handler
-         wrap-opts)))})
+     (let [wrap-opts' (assoc wrap-opts :search search)]
+       (fn [handler]
+         (web-steroid/wrap-html-metadata
+           handler
+           wrap-opts'))))})
 
 
 (def wrap-request-from-match-data
