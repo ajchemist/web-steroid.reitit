@@ -3,7 +3,7 @@
 
  :deps
  {
-  io.github.ajchemist/web-steroid {:mvn/version "2022.298.34370"}
+  io.github.ajchemist/web-steroid {:mvn/version "2022.298.50094"}
   metosin/reitit                  {:mvn/version "0.5.18"}
   }
 
